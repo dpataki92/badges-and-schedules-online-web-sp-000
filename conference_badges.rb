@@ -27,6 +27,7 @@ def assign_rooms(names)
 end
 
 def printer(names)
+
     badge_arr = batch_badge_creator(names)
     assignment_arr = assign_rooms(names)
 
@@ -34,4 +35,5 @@ def printer(names)
       puts name
       puts assignment_arr[i]
     }
+    
 end
