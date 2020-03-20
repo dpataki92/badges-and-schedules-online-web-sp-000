@@ -35,5 +35,5 @@ def printer(names)
       puts name
       puts assignment_arr[i]
     }
-    
+
 end
